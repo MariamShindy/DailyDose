@@ -1,0 +1,17 @@
+﻿global using AutoMapper;
+global using News.Core.Dtos.Feedback;     
+global using News.Core.Dtos.Identity; 
+global using News.Core.Dtos.NewsCatcher; 
+global using News.Core.Dtos.Notification; 
+global using News.Core.Entities.Feedback; 
+global using News.Core.Entities.Identity; 
+global using News.Core.Entities.NewsCatcher;
+global using News.Core.Entities.NewsNotification;
+global using News.Core.Contracts.Interfaces;
+global using Microsoft.AspNetCore.Identity;
+global using News.Core.Dtos.NewsCategory;
+global using News.Core.Entities.EmailSettings;
+global using System.Linq.Expressions;
+global using News.Core.Entities.Comments;
+global using Microsoft.AspNetCore.Http;
+global using System.ComponentModel.DataAnnotations.Schema;

@@ -1,0 +1,12 @@
+﻿global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using News.Core.Entities.Comments;
+global using News.Core.Entities.Feedback;
+global using News.Core.Entities.Identity;
+global using News.Core.Entities.NewsCategory;
+global using News.Core.Entities.NewsNotification;
+global using News.Core.Contracts.Repositories.UnitOfWork;
+global using News.Infrastructure.Data;
+global using System.Collections;
+global using System.Linq.Expressions;
