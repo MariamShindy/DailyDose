@@ -21,7 +21,7 @@ Welcome to the backend of **DailyDose**, a smart and scalable news aggregator sy
 
 ## 🔌 External Integrations
 -  [NewsCatcher API](https://newscatcherapi.com/) – Real-time news
--  Flask AI Service – Recommendation, summarization, translation
+-  Flask AI Service 
 -  [Neutrino API](https://www.neutrinoapi.com/) – Bad word filtering
 -  SMTP/Email Provider – Email notifications
 
