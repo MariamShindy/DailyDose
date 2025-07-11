@@ -10,7 +10,6 @@ namespace News.API.Extensions
             services.AddSingleton<ImageUploader>();
             services.AddControllers();
             services.AddScoped<IFavoriteService, FavoriteService>();
-            services.AddScoped<IFavoriteService, FavoriteService>();
             services.AddScoped<ICommentService, CommentService>();
             services.AddScoped<INewsService, NewsService>();
             services.AddScoped<IAccountService, AccountService>();
@@ -45,7 +44,7 @@ namespace News.API.Extensions
             {
                 options.AddPolicy("MyPolicy", policyOptioons =>
                 {
-                    policyOptioons.AllowAnyHeader().AllowAnyMethod().WithOrigins(configuration["FrontBaseUrl"]);
+                    policyOptioons.AllowAnyHeader().AllowAnyMethod().WithOrigins(configuration["FrontBaseUrl"]!);
                 });
             }
                 );
